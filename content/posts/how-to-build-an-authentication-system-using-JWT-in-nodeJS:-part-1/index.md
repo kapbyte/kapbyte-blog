@@ -174,7 +174,7 @@ Now to start our application, let's open our `package.json` file and include a `
 
 Now execute the command `npm run start`. You'll see the output below similar to yours.
 
-![Screenshot 2022-05-24 at 16.06.37.png](/media/terminal-output.png)
+![Screenshot 2022-05-24 at 16.06.37.png](/media/terminal-output.png)postman-verify.png
 
 ![yes-gif.webp](/media/yes-gif.gif)
 

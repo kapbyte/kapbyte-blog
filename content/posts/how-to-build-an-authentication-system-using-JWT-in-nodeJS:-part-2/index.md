@@ -15,7 +15,7 @@ In the [**Part 1**](https://hashnode.com/draft/629768228ec91103236a3597) of this
 At the end of this series, we'll have built these APIs listed below:
 
 | METHOD      | URL                               | ACTION                         |
-| :---                |    :----:                          |          ---:                        |
+| :---                |    :---                          |          ---:                        |
 | POST ✅        | /auth/signup           | Signup a new acount   |
 | POST            | /auth/verification  | Verify a new account   |
 | POST            | /auth/login                       | Login verified account |
@@ -101,7 +101,7 @@ module.exports = router;
 
 Using Postman to test our endpoint, as shown below.
 
-![Screenshot 2022-06-06 at 16.51.28.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654530943964/_ml7CbYAQ.png align="center")
+![Screenshot 2022-06-06 at 16.51.28.png](/media/postman-verify.png)
 
  Alright now, let's implement the login API.
 
@@ -179,13 +179,13 @@ module.exports = router;
 
 Now let's call the loginController on Postman as shown below.
 
-![Screenshot 2022-06-06 at 17.02.38.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654531396606/775EmRK8I.png align="center")
+![Screenshot 2022-06-06 at 17.02.38.png](/media/postman-login.png)
 
 To help understand the next steps, we need to introduce the concept of **middleware**
 
 **Middleware** are components that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle. Check [here](https://selvaganesh93.medium.com/how-node-js-middleware-works-d8e02a936113) for further reading about middlewares.
 
-![Screenshot 2022-06-01 at 16.00.19.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654531473242/6i8qf-3bt.png align="center")
+![Screenshot 2022-06-01 at 16.00.19.png](/media/jwt-explain.png)
 
 Now let's create a middleware function that would verify the token when a user makes a request to a private API on our application.
 
@@ -293,7 +293,7 @@ startServer();
 
 Now let's call the API endpoint to fetch private data, as shown below.
 
-![Screen Recording 2022-06-06 at 17.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1654533433311/ufem_y4_k.gif align="center")
+![Screen Recording 2022-06-06 at 17.gif](/media/token-explain.gif)
 
 Alright, now we've seen how to create an API and make sure that only authorized users are allowed to access the resource. Now let's implement the forgot password API.
 
@@ -380,7 +380,7 @@ module.exports = router;
 
 Let's call the forget password endpoint.
 
-![Screenshot 2022-06-06 at 17.46.26.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654534054325/gl0Qq_AVo.png align="center")
+![Screenshot 2022-06-06 at 17.46.26.png](/media/postman-password.png)
 
 - **3.13 :** Now verify the forgotten password token sent, and update the user password.
 
@@ -472,7 +472,7 @@ module.exports = router;
 
 Now let's reset our password by entering a new password, and pasting the token like `http://localhost:8080/auth/api/forgot-password/our-password-token` as shown below.
 
-![Screenshot 2022-06-06 at 17.56.18.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654534594379/iQBlAZVt-.png align="center")
+![Screenshot 2022-06-06 at 17.56.18.png](/media/postman-reset.png)
 
 
 ### Conclusion
@@ -481,6 +481,6 @@ In this article, you were introduced to JWTs and how it's used to build an effic
 
 For more background on JWTs, there is the [Introduction to JSON Web Tokens](https://jwt.io/introduction/) documentation.
 
-The source code for this project is also available on [Github](https://github.com/ke1echi/jwt-auth-tutorial)
+The source code for this project is also available on [Github](https://github.com/kapbyte/jwt-auth-tutorial)
 
 Happy coding! 👨🏽‍💻👍🏽
