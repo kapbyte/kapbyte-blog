@@ -1,5 +1,5 @@
 ---
-title: "how-to-build-a-book-application-with-Golang-Gin-and-MongoDB"
+title: "How to build a book application with Golang, Gin and MongoDB."
 date: "2022-08-09T23:46:37.121Z"
 template: "post"
 draft: false
