@@ -17,7 +17,7 @@ For this example, we’ll be using [Gin Web Framework](https://github.com/gin-go
 
 
 ### Target Audience
-This article is for anyone with experience programming in Golang and also familiar with building RESTful APIs for their applications.
+This article is for anyone with experience programming in Golang and also familiar with building RESTful APIs for their applications. Kindly check out my article on [**Getting started with Golang**](https://kapbyte.netlify.app/posts/getting-started-with-golang/getting-started-with-golang) to get started.
 
 
 ### Prerequisites
