@@ -7,7 +7,7 @@ slug: "how-to-build-a-book-application-with-Golang-Gin-and-MongoDB"
 category: "Software Engineering"
 tags:
   - "Web Development"
-description: "Authentication is an important part when building applications. In this article series, I'll show you how to build an efficient authentication system."
+description: "In this article, we'll learn how to build a REST API using Golang, Gin Web Framework and MongoDB."
 ---
 
 ### Introduction
